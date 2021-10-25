@@ -18,9 +18,14 @@ const answers =[  'Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest
     document.body.appendChild(CreatedElements.ballCover);
     CreatedElements.ballCover.appendChild(CreatedElements.spanAnswer);
     CreatedElements.ballCover.appendChild(CreatedElements.butn);
+    let title = document.createElement('h1');
+    title.textContent = "I`m Dead inside";
+    i.appendChild(title)
+
+
 //HTML text content
-    CreatedElements.spanAnswer.textContent = "Shake ballі";
-    CreatedElements.butn.textContent = "Shake";
+   // CreatedElements.spanAnswer.textContent = "SHAKE BALLS";
+    CreatedElements.butn.textContent = "SHAKE BALLS";
 //Function
 const answer = () =>{
     a.play();
