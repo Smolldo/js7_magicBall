@@ -14,6 +14,7 @@ const answers =[  'Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest
     paragraph: document.createElement('p'),
     ballScreen: document.createElement('div'),
     }
+    //
 //appending
     document.body.appendChild(CreatedElements.ballCover);
     //ball cover placement
