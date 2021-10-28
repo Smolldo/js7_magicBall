@@ -6,9 +6,7 @@
   "homepage": "https://smolldo.github.io/js7_magicBall",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /js7_magicBall/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "build": "parcel build src/index.html --public-url /js7_magicBall/"
   },
   "keywords": [],
   "license": "ISC",
