@@ -1,4 +1,4 @@
-import {answer} from './index'
+import {answer as ANS} from './index.js';
 
 
 const refs = {
@@ -10,7 +10,7 @@ const refs = {
 //send question
 const ask = () => {
     refs.modalBlock.classList.toggle('is-none');
-    answer();
+    ANS();
 }
 //just close modal
 const closeAsker = () =>{
