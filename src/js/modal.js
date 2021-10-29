@@ -1,16 +1,15 @@
-import {answer as ANS} from './index.js';
-
-
+import '../sass/main.scss';
+import {ANSWER} from './answer';
 const refs = {
     modalBlock: document.querySelector('.modal'),
     closeModal: document.querySelector('.close_ask'),
-    sendModal: document.querySelector('.ask_btn')
+    sendModal: document.querySelector('.ask_btn'),
 }
 
 //send question
 const ask = () => {
     refs.modalBlock.classList.toggle('is-none');
-    ANS();
+    ANSWER();
 }
 //just close modal
 const closeAsker = () =>{
