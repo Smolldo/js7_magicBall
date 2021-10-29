@@ -22,6 +22,7 @@ const answers =[  'Maybe.', 'Certainly not.', 'I hope so.',
     CreatedElements.ballCover.appendChild(CreatedElements.ballBody);
     CreatedElements.ballCover.appendChild(CreatedElements.butn);
     CreatedElements.ballCover.classList.add('ball_div');
+    CreatedElements.ballCover.classList.add('shake');
      //ball body
      CreatedElements.ballBody.classList.add('ball');
      CreatedElements.ballBody.appendChild(CreatedElements.ballScreen);
@@ -30,13 +31,15 @@ const answers =[  'Maybe.', 'Certainly not.', 'I hope so.',
      CreatedElements.ballScreen.classList.add('ball_screen');
     //paragreph
     CreatedElements.paragraph.classList.add('p_text');
+    CreatedElements.paragraph.classList.add('screen');
 //HTML text content
     CreatedElements.paragraph.textContent = "SHAKE BALL";
 //Function
-const answer = () =>{
+export const answer = () =>{
     let answerText = answers[Math.floor(Math.random()* answers.length)];
     CreatedElements.paragraph.textContent = answerText;
-    CreatedElements.ballCover.classList.toggle('shake');
+    CreatedElements.paragraph.classList.toggle('screen1')
+    CreatedElements.ballCover.classList.toggle('shake1');
 }
 
     CreatedElements.butn.addEventListener('click', answer);
