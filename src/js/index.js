@@ -13,6 +13,6 @@ export const answers =[  'Maybe.', 'Certainly not.', 'I hope so.',
     butn: document.createElement('button'),
     paragraph: document.createElement('p'),
     ballScreen: document.createElement('div'),
-    openModal: document.createElement('button')
+    title: document.createElement('h1')
     }
     //

@@ -21,4 +21,6 @@ CreatedElements.paragraph.classList.add('p_text');
 CreatedElements.paragraph.classList.add('screen');
 //HTML text content
 CreatedElements.paragraph.textContent = "SHAKE BALL";
-
+//title
+CreatedElements.title.textContent = "Ask the magic 8 ball what u want!";
+document.body.insertAdjacentElement('beforebegin',CreatedElements.title);

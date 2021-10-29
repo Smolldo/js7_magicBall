@@ -4,7 +4,8 @@ const refs = {
     modalBlock: document.querySelector('.modal'),
     closeModal: document.querySelector('.close_ask'),
     sendModal: document.querySelector('.ask_btn'),
-    openModalWindow: document.querySelector('.open_modal')
+    openModalWindow: document.querySelector('.open_modal'),
+    inp: document.querySelector('.ask_inp')
 }
 
 //send question
@@ -16,9 +17,10 @@ const ask = () => {
 const closeAsker = () =>{
     refs.modalBlock.classList.toggle('is-none')
 }
-
+//openModal
 const OPEN = ()=>{
     refs.modalBlock.classList.toggle('is-none')
+    refs.inp.value = '';
 }
 
 //listeners
