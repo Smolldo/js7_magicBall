@@ -1,11 +1,11 @@
 import '../sass/main.scss'
 //array of answers
-const answers =[  'Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dreams.',
+const answers =[  'Maybe.', 'Certainly not.', 'I hope so.',
 'There is a good chance.', 'Quite likely.', 'I think so.', 'I hope not.',
 'I hope so.', 'Never!', 'Fuhgeddaboudit.', 'Ahaha! Really?!?', 'Pfft.',
 'Sorry, bucko.', 'Hell, yes.', 'Hell to the no.', 'The future is bleak.',
-'The future is uncertain.', 'I would rather not say.', 'Who cares?',
-'Possibly.', 'Never, ever, ever.', 'There is a small chance.', 'Yes!'];
+'The future is uncertain.', 'Who cares?',
+'Possibly.', 'Never, ever, ever.', 'Yes!'];
 //create elements
     const CreatedElements = {
     ballCover: document.createElement('div'),
@@ -17,6 +17,7 @@ const answers =[  'Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest
     //
 //appending
     document.body.appendChild(CreatedElements.ballCover);
+    CreatedElements.butn.classList.add('ball_btn');
     //ball cover placement
     CreatedElements.ballCover.appendChild(CreatedElements.ballBody);
     CreatedElements.ballCover.appendChild(CreatedElements.butn);

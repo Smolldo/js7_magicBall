@@ -1,18 +1,40 @@
 .modal{
     position: absolute;
     width: 300px;
-    height: 300px;
+    height: 150px;
     background-color: red;
     z-index: 999;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
 }
+//form
+.ask_form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 
 .close_ask{
     width: 20px;
     height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
 }
 
 .ask_btn{
+    
     width: 20px;
     height: 20px;
+position: relative;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+background-color: blanchedalmond;
+
 }
