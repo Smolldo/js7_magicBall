@@ -10,8 +10,14 @@ const refs = {
 
 //send question
 const ask = () => {
-    refs.modalBlock.classList.toggle('is-none');
+    if(refs.inp.value == ""){
+        refs.inp.style.backgroundColor = "red";
+        refs.inp.placeholder = "Enter SMTH!!!!";
+    }
+    else{
+        refs.modalBlock.classList.toggle('is-none');
     ANSWER();
+    }
 }
 //just close modal
 const closeAsker = () =>{
@@ -21,6 +27,8 @@ const closeAsker = () =>{
 const OPEN = ()=>{
     refs.modalBlock.classList.toggle('is-none')
     refs.inp.value = '';
+    refs.inp.style.backgroundColor = "white";
+    refs.inp.placeholder = "Enter smth or not";
 }
 
 //listeners
