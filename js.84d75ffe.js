@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"QvaY":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CreatedElements=exports.answers=void 0,require("../sass/main.scss");var e=["Maybe.","Certainly not.","I hope so.","There is a good chance.","Quite likely.","I think so.","I hope not.","I hope so.","Never!","Fuhgeddaboudit.","Ahaha! Really?!?","Pfft.","Sorry, bucko.","Hell, yes.","Hell to the no.","The future is bleak.","The future is uncertain.","Who cares?","Possibly.","Never, ever, ever.","Yes!"];exports.answers=e;var t={ballCover:document.createElement("div"),ballBody:document.createElement("div"),butn:document.createElement("button"),paragraph:document.createElement("p"),ballScreen:document.createElement("div"),title:document.createElement("h1")};exports.CreatedElements=t;
 },{"../sass/main.scss":"clu1"}]},{},["QvaY"], null)
-//# sourceMappingURL=/js7_magicBall/js.47814de6.js.map
+//# sourceMappingURL=/js7_magicBall/js.84d75ffe.js.map
